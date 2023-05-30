@@ -62,7 +62,10 @@ class MyHomePage extends StatelessWidget {
                     ),
                     subtitle: Text(
                       lastResponse.title,
-                      style: TextStyle(fontSize: 10, color: Colors.grey),
+                      style: TextStyle(
+                          fontSize: 10,
+                          color: Colors.grey,
+                          shadows: [Shadow(blurRadius: 1)]),
                     ),
                   );
                 },
